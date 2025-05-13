@@ -91,5 +91,3 @@ They are generally **not** designed to switch between entirely separate sound ca
 *   **Port switching not working**:
     *   Verify the port names configured in `Change_Audio_Output_Port.sh` (`PORT1_NAME`, `PORT2_NAME`) exactly match the output of `pactl list sinks` for your target device.
     *   Confirm your audio devices are on the same sink, just different ports (see "Important Limitation" above).
-
----
